@@ -1,18 +1,10 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 
-# array = [2, 8, 9, 48, 8, 22, -12, 2]
-# new_array = []
-# for i in array:
-#     if i > 5:
-#         new_array.append(i+2)
-# print(f"{array}$")
-# print(f"{set(new_array)}$")
+array = [2, 8, 9, 48, 8, 22, -12, 2]
+new_array = []
+for i in array:
+    if i > 5:
+        new_array.append(i+2)
+print(f"{array}$")
+print(f"{set(new_array)}$")
 
-
-
-original_array = [2, 4, 9, 48, 8, 22, -12, 2]
-
-new_array = {num + 2 for num in original_array if (num + 2) > 5}
-
-print(original_array)
-print(new_array)
