@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 age = 20
 sec_variable = 42
 my_age = age + sec_variable
