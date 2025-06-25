@@ -5,6 +5,6 @@ new_array = []
 for i in array:
     if i > 5:
         new_array.append(i+2)
-print(f"{array}$")
-print(f"{set(new_array)}$")
+print(f"{array}")
+print(f"{set(new_array)}")
 
